@@ -1,0 +1,25 @@
+.search-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  border-bottom: 1px solid rgb(160, 160, 160);
+  padding-bottom: 2rem;
+}
+
+.input {
+  border-radius: 0.2rem;
+  border-bottom: 2px solid black;
+  border-left: 1px solid black;
+  padding: 0.3rem;
+  outline: 1px solid rgb(160, 160, 160);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.3s;
+  width: 350px;
+  min-width: 150px;
+}
+
+.input:focus {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 50px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 16px -18px inset;
+}
